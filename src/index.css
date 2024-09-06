@@ -4,6 +4,30 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --fixadate-primary: #0047ff;
+  --fixadate-secondary-1: #e5edff;
+  --fixadate-secondary-2: #ccdaff;
+  --fixadate-secondary-3: #99b6ff;
+  --fixadate-secondary-4: #4d7eff;
+
+  --fixadate-gray-1: #fafafa;
+  --fixadate-gray-2: #f3f3f6;
+  --fixadate-gray-3: #b7bdca;
+  --fixadate-gray-4: #979dac;
+  --fixadate-gray-5: #7a8090;
+  --fixadate-gray-6: #485063;
+
+  --fixadate-disabled-text: #dcdfe8;
+  --fixadate-input-text: #51556e;
+  --fixadate-text: #25283a;
+
+  --fixadate-error: #f33d3d;
+  --fixadate-positive: #0047ff;
+  --fixadate-black: #000000;
+  --fixadate-white: #ffffff;
+}
+
 body {
   font-family: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
     'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji',
