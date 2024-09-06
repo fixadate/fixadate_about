@@ -9,9 +9,102 @@
 
     <title>Fixadate</title>
   </head>
-  <body>
-    <main>
-      <div></div>
+  <body class="">
+    <!-- Header -->
+    <header class="">
+      <nav
+        class="flex border border-b-fixadate-gray-2 fixed w-full bg-fixadate-white justify-between items-center py-3 px-8">
+        <div class="flex gap-3 items-center">
+          <span class="w-14 h-14 p-0.5 border border-fixadate-gray-2 rounded-xl">
+            <img src="public/images/app_icon.png" alt="icon" class="w-full h-full object-contain" />
+          </span>
+
+          <span class="font-bold text-2xl">Fixadate</span>
+        </div>
+
+        <div class="flex gap-6 text-fixadate-gray-5 font-medium">
+          <span>홈</span>
+          <span>Tech</span>
+        </div>
+      </nav>
+    </header>
+
+    <main class="">
+      <div class="flex flex-col gap-72 justify-center">
+        <!-- App 소개 사진 -->
+        <section class="bg-fixadate-primary h-screen flex gap-0 justify-center py-12">
+          <img src="public/images/app01.png" alt="app info" class="object-contain max-w-sm" />
+          <img src="public/images/app02.png" alt="app info" class="object-contain max-w-sm" />
+        </section>
+
+        <!-- Title -->
+        <section class="text-center space-y-7">
+          <div class="w-full">
+            <img src="public/images/app_icon.png" alt="icon" class="mx-auto w-44 h-44 object-contain" />
+          </div>
+
+          <h1 class="font-bold text-5xl">Fixadate</h1>
+
+          <div class="space-y-1">
+            <p class="font-normal text-xl">나를 다시 돌아보고,</p>
+            <p class="font-normal text-xl">나의 하루를 다시 돌아볼 수 있도록 오늘을 되돌아 보고,</p>
+            <p class="font-normal text-xl">
+              내일을 다시 설계할 수 있는 <span class="font-medium">Fixadate.</span>
+            </p>
+          </div>
+        </section>
+
+        <section class="max-w-screen-xl space-y-40 mx-auto w-full">
+          <!-- Section 1 -->
+          <div class="flex justify-between items-center">
+            <img src="public/images/screenshot01.png" alt="app info" class="object-contain max-w-sm" />
+
+            <div class="space-y-4 text-end">
+              <h2 class="text-4xl font-semibold">Lorem ipsum dolor sit</h2>
+              <p class="text-3xl">
+                Et veritatis ea debitis ipsam quasi numquam quaerat modi consectetur, illo earum! Sapiente
+                provident enim aliquam est consequatur fugit porro quia earum!
+              </p>
+            </div>
+          </div>
+
+          <!-- Section 2 -->
+          <div class="flex justify-between items-center">
+            <div class="space-y-4 text-start">
+              <h2 class="text-4xl font-semibold">Lorem ipsum dolor sit</h2>
+              <p class="text-3xl">
+                Et veritatis ea debitis ipsam quasi numquam quaerat modi consectetur, illo earum! Sapiente
+                provident enim aliquam est consequatur fugit porro quia earum!
+              </p>
+            </div>
+
+            <img src="public/images/screenshot02.png" alt="app info" class="object-contain max-w-sm" />
+          </div>
+
+          <!-- Section 3 -->
+          <div class="flex justify-between items-center">
+            <img src="public/images/screenshot03.png" alt="app info" class="object-contain max-w-sm" />
+
+            <div class="space-y-4 text-end">
+              <h2 class="text-4xl font-semibold">Lorem ipsum dolor sit</h2>
+              <p class="text-3xl">
+                Et veritatis ea debitis ipsam quasi numquam quaerat modi consectetur, illo earum! Sapiente
+                provident enim aliquam est consequatur fugit porro quia earum!
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
+
+    <footer class="mt-48 w-full flex text-fixadate-gray-6 p-12 justify-between">
+      <span> Copyright Fixadate. All rights reserved </span>
+
+      <div class="flex gap-4">
+        <span> Github </span>
+
+        <span> 뭐시기 </span>
+      </div>
+    </footer>
   </body>
 </html>
