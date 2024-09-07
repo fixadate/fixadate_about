@@ -10,7 +10,7 @@ function App() {
           <nav className="flex border  border-b-fixadate-gray-2 fixed w-full bg-fixadate-white justify-between items-center py-3 px-8">
             <div className="flex gap-3 items-center">
               <span className="w-14 h-14 p-0.5 border border-fixadate-gray-2 rounded-xl">
-                <img src="public/images/app_icon.png" alt="icon" className="w-full h-full object-contain" />
+                <img src="images/app_icon.png" alt="icon" className="w-full h-full object-contain" />
               </span>
 
               <span className="font-bold text-2xl">Fixadate</span>
@@ -27,18 +27,14 @@ function App() {
           <div className="flex flex-col gap-72 justify-center">
             {/* App 소개 사진 */}
             <section className="bg-fixadate-primary h-screen flex gap-0 justify-center py-12">
-              <img src="public/images/app01.png" alt="app info" className="object-contain max-w-sm" />
-              <img src="public/images/app02.png" alt="app info" className="object-contain max-w-sm" />
+              <img src="images/app01.png" alt="app info" className="object-contain max-w-sm" />
+              <img src="images/app02.png" alt="app info" className="object-contain max-w-sm" />
             </section>
 
             {/*  Title  */}
             <section className="text-center space-y-7">
               <div className="w-full">
-                <img
-                  src="public/images/app_icon.png"
-                  alt="icon"
-                  className="mx-auto w-44 h-44 object-contain"
-                />
+                <img src="images/app_icon.png" alt="icon" className="mx-auto w-44 h-44 object-contain" />
               </div>
 
               <h1 className="font-bold text-5xl">Fixadate</h1>
@@ -55,11 +51,7 @@ function App() {
             <section className="max-w-screen-xl space-y-40 mx-auto w-full">
               {/* Section 1  */}
               <div className="flex justify-between items-center">
-                <img
-                  src="public/images/screenshot01.png"
-                  alt="app info"
-                  className="object-contain max-w-sm"
-                />
+                <img src="images/screenshot01.png" alt="app info" className="object-contain max-w-sm" />
 
                 <div className="space-y-4 text-end">
                   <h2 className="text-4xl font-semibold">Lorem ipsum dolor sit</h2>
@@ -80,20 +72,12 @@ function App() {
                   </p>
                 </div>
 
-                <img
-                  src="public/images/screenshot02.png"
-                  alt="app info"
-                  className="object-contain max-w-sm"
-                />
+                <img src="images/screenshot02.png" alt="app info" className="object-contain max-w-sm" />
               </div>
 
               {/* Section 3 */}
               <div className="flex justify-between items-center">
-                <img
-                  src="public/images/screenshot03.png"
-                  alt="app info"
-                  className="object-contain max-w-sm"
-                />
+                <img src="images/screenshot03.png" alt="app info" className="object-contain max-w-sm" />
 
                 <div className="space-y-4 text-end">
                   <h2 className="text-4xl font-semibold">Lorem ipsum dolor sit</h2>
