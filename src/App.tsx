@@ -29,10 +29,13 @@ const App = () => {
                             <h1 className='text-5xl font-bold'>Fixadate</h1>
 
                             <div className='space-y-1'>
-                                <p className='text-xl font-normal'>나를 다시 돌아보고,</p>
                                 <p className='text-xl font-normal'>
-                                    나의 하루를 다시 돌아볼 수 있도록 오늘을 되돌아 보고,
+                                    나를 다시 돌아보고, 나의 하루를 다시 돌아볼 수 있도록
                                 </p>
+                            </div>
+
+                            <div className='space-y-1'>
+                                <p className='text-xl font-normal'>오늘을 되돌아 보고,</p>
                                 <p className='text-xl font-normal'>
                                     내일을 다시 설계할 수 있는 <span className='font-medium'>Fixadate.</span>
                                 </p>
