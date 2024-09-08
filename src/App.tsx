@@ -81,12 +81,23 @@ const App = () => {
                             {/* Section 2 */}
                             <div className='mx-auto flex max-w-screen-xl items-center justify-between'>
                                 <div className='space-y-4 text-start'>
-                                    <h2 className='text-4xl font-semibold'>Lorem ipsum dolor sit</h2>
-                                    <p className='text-3xl'>
-                                        Et veritatis ea debitis ipsam quasi numquam quaerat modi consectetur,
-                                        illo earum! Sapiente provident enim aliquam est consequatur fugit
-                                        porro quia earum!
-                                    </p>
+                                    <h2 className='text-4xl font-semibold'>간단한 소셜 로그인</h2>
+                                    <h3 className='ml-auto text-xl font-medium text-fixadate-gray-5'>
+                                        <p className=''>사용하고 있는 소셜 계정이 있다면</p>
+                                        <p className=''>
+                                            누구든지{' '}
+                                            <span className='text-fixadate-black'>
+                                                간편하고 빠른 회원가입
+                                            </span>
+                                            이 가능합니다!
+                                        </p>
+                                        <p className=''>
+                                            <span className='font-semibold text-fixadate-black'>
+                                                Fixadate
+                                            </span>
+                                            에서 번거로움 없이 지금 바로 앱을 시작해보세요!
+                                        </p>
+                                    </h3>
                                 </div>
 
                                 <img
