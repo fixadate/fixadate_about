@@ -25,6 +25,10 @@ export const Home = () => {
         };
     }, []);
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <>
             <Header className={`${showHeader ? 'opacity-100' : 'h-0 opacity-0'}`} />
