@@ -151,13 +151,13 @@ export const Home = () => {
                     {/* GitHub */}
                     <div className='relative flex h-full w-full justify-end'>
                         <a
-                            className='flex h-20 w-80 items-center justify-center gap-3 rounded-2xl bg-[#2b3137] pr-2 transition-all duration-200 hover:scale-105 hover:shadow-lg active:scale-100'
+                            className='flex h-16 w-64 items-center justify-center gap-3 rounded-2xl bg-[#2b3137] pr-2 transition-all duration-200 hover:scale-105 hover:shadow-lg active:scale-100'
                             href='https://github.com/fixadate'
                             target='_blank'
                         >
-                            <img src='images/github_white.png' alt='github' className='h-12 w-12' />
+                            <img src='images/github_white.png' alt='github' className='h-10 w-10' />
 
-                            <span className='truncate text-2xl text-white'>Fixadate GitHub</span>
+                            <span className='truncate text-xl font-normal text-white'>Fixadate GitHub</span>
                         </a>
                     </div>
 
@@ -165,11 +165,11 @@ export const Home = () => {
                     <div className='relative flex h-full w-full justify-start'>
                         <Link
                             to='/fixadate_about/tech-stack'
-                            className='flex h-20 w-80 items-center justify-center gap-4 rounded-2xl bg-fixadate-primary pr-4 transition-all duration-200 hover:scale-105 hover:shadow-lg active:scale-100'
+                            className='flex h-16 w-64 items-center justify-center gap-3 rounded-2xl bg-fixadate-primary pr-2 transition-all duration-200 hover:scale-105 hover:shadow-lg active:scale-100'
                         >
-                            <span className='top-1/2 text-4xl'>🛠️</span>
+                            <span className='top-1/2 text-3xl'>🛠️</span>
 
-                            <span className='truncate text-2xl text-white'>기술 소개</span>
+                            <span className='truncate text-xl font-normal text-white'>기술 소개</span>
                         </Link>
                     </div>
                 </section>
