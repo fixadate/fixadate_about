@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export const Header = () => {
+export const Header = ({ className }: { className?: string }) => {
     return (
-        <header className='sticky top-0 z-50'>
+        <header className={`sticky top-0 z-50 ${className} duration-250 transition-opacity`}>
             <nav className='flex w-full items-center justify-between border border-b-fixadate-gray-2 bg-fixadate-white px-8 py-3'>
                 {/* Left */}
                 <Link to='/fixadate_about/'>
