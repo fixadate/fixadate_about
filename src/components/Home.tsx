@@ -7,6 +7,7 @@ export const Home = () => {
     const [showHeader, setShowHeader] = useState(false);
 
     useEffect(() => {
+        // App 소개 사진 지나면 Header 나타나도록
         const handleScroll = () => {
             const scrollPosition = window.scrollY;
             const introSectionHeight = window.innerHeight;
@@ -26,6 +27,7 @@ export const Home = () => {
     }, []);
 
     useEffect(() => {
+        // 홈 페이지 이동 시 맨 위로 스크롤
         window.scrollTo(0, 0);
     }, []);
 
