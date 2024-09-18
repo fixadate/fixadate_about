@@ -28,7 +28,7 @@ export const TechStack = () => {
 
                     {/* 2. CICD Pipeline */}
                     <section className='flex h-full w-full flex-col items-center justify-center gap-20 text-start'>
-                        <h2 className='mr-auto text-4xl font-semibold'>CICD Pipline</h2>
+                        <h2 className='mr-auto text-4xl font-semibold'>CICD 파이프라인</h2>
 
                         <img className='w-4/5' src='images/techStack/cicd.png' alt='CICD Pipeline' />
                     </section>
@@ -37,7 +37,7 @@ export const TechStack = () => {
 
                     {/* 3. Infrastructure */}
                     <section className='flex h-full w-full flex-col items-center justify-center gap-20 text-start'>
-                        <h2 className='mr-auto text-4xl font-semibold'>Infrastructure</h2>
+                        <h2 className='mr-auto text-4xl font-semibold'>인프라 구조</h2>
 
                         <img className='w-4/5' src='images/techStack/aws.png' alt='Infrastructure' />
                     </section>
