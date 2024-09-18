@@ -14,7 +14,6 @@ export const TechStack = () => {
             <main className='mx-auto mt-40 max-w-screen-lg space-y-60'>
                 <div className='space-y-4 text-center'>
                     <h1 className='text-5xl font-bold'>Fixadate 기술 소개</h1>
-                    <Divider />
                 </div>
 
                 <div className='flex flex-col gap-40'>
@@ -22,7 +21,7 @@ export const TechStack = () => {
                     <section className='flex h-full w-full flex-col items-center justify-center gap-20 text-start'>
                         <h2 className='mr-auto text-4xl font-semibold'>백엔드 기술 스택</h2>
 
-                        <img className='w-3/5' src='images/techStack/be_stack.png' alt='Backend Tech Stack' />
+                        <img className='w-4/5' src='images/techStack/be_stack.png' alt='Backend Tech Stack' />
                     </section>
 
                     <Divider />
