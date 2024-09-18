@@ -3,6 +3,7 @@ import { Header } from './Header';
 
 export const TechStack = () => {
     useEffect(() => {
+        // 기술스택 페이지 이동 시 맨 위로 스크롤
         window.scrollTo(0, 0);
     }, []);
 
