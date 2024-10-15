@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Header } from './Header';
 
 export const TechStack = () => {
@@ -8,7 +8,7 @@ export const TechStack = () => {
     }, []);
 
     return (
-        <>
+        <div className='mx-auto max-w-screen-xl'>
             <Header />
 
             <main className='mx-auto mt-40 max-w-screen-lg space-y-60'>
@@ -43,7 +43,7 @@ export const TechStack = () => {
                     </section>
                 </div>
             </main>
-        </>
+        </div>
     );
 };
 
