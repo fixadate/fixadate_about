@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export const Header = ({ className }: { className?: string }) => {
     return (
         <header
-            className={`${className} duration-250 fixed left-6 right-6 top-6 z-50 overflow-hidden rounded-full shadow-lg transition-opacity`}
+            className={`${className} duration-250 fixed left-6 right-6 top-6 z-50 overflow-hidden rounded-full shadow-lg transition-opacity lg:left-1/2 lg:right-0 lg:w-[80%] lg:-translate-x-1/2`}
             style={{ boxShadow: '0px 0px 18px 0px rgba(156, 164, 190, 0.30)' }}
         >
             <nav className='flex w-full items-center justify-between bg-fixadate-white py-1 pl-5 pr-6'>
