@@ -7,7 +7,7 @@ export const Footer = () => {
             </div>
 
             <div className='flex flex-col items-center lg:items-start'>
-                <p className='text-lg font-bold text-fixadate-gray-4'>Fixadate</p>
+                <p className='fixadate text-lg font-semibold text-fixadate-gray-4'>Fixadate</p>
                 <p className='text-sm text-fixadate-gray-3'> Copyright Fixadate. All rights reserved.</p>
             </div>
         </footer>

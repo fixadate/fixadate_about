@@ -196,7 +196,7 @@ const MobileView = () => {
                 <div className='absolute -bottom-16 left-7 space-y-8 sm:left-12'>
                     <div className=''>
                         <h2
-                            className='space-y-3 text-7xl font-bold sm:text-8xl'
+                            className='space-y-3 text-5xl font-bold sm:text-8xl'
                             style={{
                                 background: 'linear-gradient(180deg, #0B98FF 0%, #0047FF 100%)',
                                 backgroundClip: 'text',
@@ -214,7 +214,9 @@ const MobileView = () => {
                         <h4 className='text-base font-medium text-fixadate-gray-4 sm:text-xl'>
                             지능적인 스케줄 디자이너
                         </h4>
-                        <h1 className='text-7xl font-bold text-fixadate-text sm:text-8xl'>Fixadate</h1>
+                        <h1 className='fixadate text-7xl font-bold text-fixadate-text sm:text-8xl'>
+                            Fixadate
+                        </h1>
                     </div>
                 </div>
             </div>
@@ -227,13 +229,13 @@ const MobileView = () => {
                         <img
                             src='images/app_icon.png'
                             alt='icon'
-                            className='mx-auto h-44 w-44 object-contain'
+                            className='mx-auto h-36 w-36 object-contain'
                         />
                     </div>
 
-                    <h1 className='text-4xl font-semibold text-fixadate-text'>Fixadate</h1>
+                    <h1 className='fixadate text-4xl font-semibold text-fixadate-text'>Fixadate</h1>
 
-                    <div className='space-y-7 text-lg font-normal text-fixadate-gray-5'>
+                    <div className='space-y-7 font-normal text-fixadate-gray-5 ~text-sm/3xl'>
                         <p>나를 다시 돌아보고, 나의 하루를 다시 돌아볼 수 있도록.</p>
 
                         <div className='space-y-1'>
@@ -245,7 +247,11 @@ const MobileView = () => {
 
                 {/* 2. 캘린더 일정 관리 */}
                 <Section>
-                    <img src='images/screenshot01.png' alt='app info' className='max-w-sm object-contain' />
+                    <img
+                        src='images/screenshot01.png'
+                        alt='app info'
+                        className='screenshot max-w-sm object-contain'
+                    />
 
                     <div className='flex flex-col items-center space-y-4 text-end'>
                         <CalendarIcon />
@@ -272,7 +278,11 @@ const MobileView = () => {
 
                 {/* 3. 간단한 소셜 로그인 */}
                 <Section>
-                    <img src='images/screenshot02.png' alt='app info' className='max-w-sm object-contain' />
+                    <img
+                        src='images/screenshot02.png'
+                        alt='app info'
+                        className='screenshot max-w-sm object-contain'
+                    />
 
                     <div className='flex flex-col items-center space-y-4 text-end'>
                         <LoginIcon />
@@ -295,7 +305,7 @@ const MobileView = () => {
                     <img
                         src='images/screenshot03.png'
                         alt='app info'
-                        className='max-w-sm rounded-3xl object-contain'
+                        className='screenshot max-w-sm rounded-3xl object-contain'
                     />
 
                     <div className='flex flex-col items-center space-y-4 text-end'>

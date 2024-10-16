@@ -5,5 +5,5 @@ export const Section = tw.div`
 `;
 
 export const H3 = tw.h3`
-    ml-auto flex flex-col items-center text-xl font-normal leading-relaxed text-fixadate-gray-5
+    ml-auto flex flex-col items-center ~text-sm/3xl font-normal leading-relaxed text-fixadate-gray-5
 `;
