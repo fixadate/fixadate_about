@@ -1,4 +1,4 @@
-import fluid, { extract } from 'fluid-tailwind';
+import fluid, { extract, fontSize, screens } from 'fluid-tailwind';
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -7,6 +7,8 @@ export default {
         extract,
     },
     theme: {
+        screens,
+        fontSize,
         extend: {
             colors: {
                 'fixadate-primary': 'var(--fixadate-primary)',
